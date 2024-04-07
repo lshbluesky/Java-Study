@@ -1,4 +1,4 @@
-package week03.control1;
+package week03;
 
 public class IfStatement {
 	public static void main(String[] args) {
