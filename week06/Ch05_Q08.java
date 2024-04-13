@@ -1,6 +1,6 @@
 package week06;
 
-public class Ch06_Q08 {
+public class Ch05_Q08 {
 	public static void main(String[] args) {
 		String str = "내 이름은 [홍길동]입니다. 나이는 [15]살 입니다.";
 		String name;
