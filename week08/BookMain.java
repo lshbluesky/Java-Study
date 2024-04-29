@@ -18,7 +18,7 @@ class Book {
 public class BookMain {
 	public static void main(String[] args) {
 		Book b = new Book(); // 기본 생성자 (컴파일러가 자동으로 생성)
-		b.title = "Little Princess";
+		b.title = "The Little Prince";
 		b.price = 15000;
 		b.printInfo();
 		b.buy();
