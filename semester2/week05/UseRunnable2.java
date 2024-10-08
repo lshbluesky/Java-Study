@@ -22,7 +22,7 @@ class CaptionRunnable2 implements Runnable {
 }
 
 // VideoRunnable : 비디오 프레임(장면)을 송출하는 기능이 있는 run() 메소드 재정의.
-class VideoRunnable extends Thread {
+class VideoRunnable implements Runnable {
 	@Override
 	public void run() {
 		int[] scene = { 1, 2, 3, 4, 5 };
